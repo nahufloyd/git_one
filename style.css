@@ -7,8 +7,12 @@ body{
 
 }
 
+
+/* nav categorias*/
 nav {
-	background-color: blueviolet;
+     display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
 }
 
 nav ul {
@@ -23,6 +27,7 @@ nav ul {
 nav ul li {
 	display: flex;
 	text-align: center;
+     background-color: #2570ff;
 }
 
 nav ul li a {
