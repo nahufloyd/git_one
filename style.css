@@ -11,8 +11,8 @@ body{
 /* nav categorias*/
 nav {
      display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 40px;
 }
 
 nav ul {
@@ -91,6 +91,10 @@ body {
 			font-size: 24px;
 			text-transform: uppercase;
 			position: relative;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+
 		}
 
 		header::before {
@@ -214,6 +218,7 @@ nav ul li:hover > ul {
       #galeria {
         display: flex;
         justify-content: space-between;
+        margin-top: 100px;
       }
 
       #galeria img {
