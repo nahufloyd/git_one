@@ -3,6 +3,10 @@ body{
 
 }
 
+.carrito{
+
+}
+
 nav {
 	background-color: blueviolet;
 }
@@ -349,7 +353,7 @@ nav ul li:hover > ul {
 
 
 footer{
-    display: flex;
+  
     background-color:  #F2F2F2;
     height:255px;
     justify-content: space-around;
@@ -357,18 +361,29 @@ footer{
    
 }
 
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.partFooter, .partFooter1 {
+  width: 100%;
+}
+
+
+
 .derechos{
 
     text-align: center;
-  font-size: 15px;
-}
+   font-size: 15px;
+   color: white;
+
 }
 
 .partFooter{
-    display: flex;
-   flex-direction: column;
-    justify-content: space-evenly;
-    width: 20%;
+
+ 
     text-align: center;
 }
 
@@ -377,9 +392,12 @@ footer{
     color: white;
     margin-bottom: 20px;
 }
-.partFooter img{
-    height: 100px;
-  
+.partFooter1 img{
+  height: 60px;
+  justify-content: center;
+  text-align: center;
+  width: 130px;
+  margin-left: 30%;
 }
 
 
